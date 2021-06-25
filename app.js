@@ -13,7 +13,7 @@ let x = require('lodash')
         window.sum = function sum(array){
             let add = _.reduce(array, function(sum, n) {
                 return sum + n;
-              }, 0);
+              });
               return add;
         }
 
